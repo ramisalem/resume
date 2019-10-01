@@ -7,6 +7,10 @@
         "predeploy": "yarn run build",
         "deploy": "gh-pages -d build"
     },
+    "engines": {
+        "npm": "6.11.3",
+        "node": "10.16.3"
+    },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
         "css",
@@ -33,6 +37,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
+        "gh-pages": "^2.1.1",
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1"
     },
